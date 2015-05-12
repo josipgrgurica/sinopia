@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git://github.com/rlidwka/sinopia"
   },
-  "main": "index.js",
+  "main": "./bin/sinopia",
   "bin": {
     "sinopia": "./bin/sinopia"
   },
