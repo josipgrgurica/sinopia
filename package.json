@@ -67,7 +67,7 @@
     "server"
   ],
   "scripts": {
-    "start": "node ./bin/sinopia --listen $OPENSHIFT_NODEJS_IP:$OPENSHIFT_NODEJS_PORT",
+    "start": "node ./bin/sinopia",
     "test": "eslint --reset . && mocha ./test/functional ./test/unit",
     "test-travis": "eslint --reset . && mocha -R spec ./test/functional ./test/unit",
     "test-only": "mocha ./test/functional ./test/unit",
