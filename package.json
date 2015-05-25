@@ -67,7 +67,7 @@
     "server"
   ],
   "scripts": {
-    "start": "node ./bin/sinopia",
+    "start": "node ./bin/sinopia --listen localhost:$PORT",
     "test": "eslint --reset . && mocha ./test/functional ./test/unit",
     "test-travis": "eslint --reset . && mocha -R spec ./test/functional ./test/unit",
     "test-only": "mocha ./test/functional ./test/unit",
