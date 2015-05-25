@@ -1,6 +1,6 @@
 {
   "name": "sinopia",
-  "version": "1.3.0",
+t "version": "1.3.0",
   "description": "Private npm repository server",
   "author": {
     "name": "Alex Kocharin",
@@ -67,7 +67,7 @@
     "server"
   ],
   "scripts": {
-    "start": "node ./bin/sinopia --listen 0.0.0.0:$PORT",
+    "start": "node ./bin/sinopia",
     "test": "eslint --reset . && mocha ./test/functional ./test/unit",
     "test-travis": "eslint --reset . && mocha -R spec ./test/functional ./test/unit",
     "test-only": "mocha ./test/functional ./test/unit",
